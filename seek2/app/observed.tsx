@@ -1,12 +1,12 @@
-// app/index.tsx
+// app/observed.tsx
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function LandingPage() {
+export default function ObservedPage() {
 	return (
 		<View style={styles.container}>
-			<Text style={styles.title}>Welcome to EcoTourism!</Text>
-			<Text>This is the landing page.</Text>
+			<Text style={styles.title}>Observed Animals</Text>
+			<Text>Here you can view all the animals you’ve observed.</Text>
 		</View>
 	);
 }

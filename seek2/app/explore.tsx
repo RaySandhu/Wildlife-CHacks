@@ -1,12 +1,12 @@
-// app/index.tsx
+// app/explore.tsx
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function LandingPage() {
+export default function ExplorePage() {
 	return (
 		<View style={styles.container}>
-			<Text style={styles.title}>Welcome to EcoTourism!</Text>
-			<Text>This is the landing page.</Text>
+			<Text style={styles.title}>Eco-Tourism Explore</Text>
+			<Text>Discover eco-tourism destinations and experiences.</Text>
 		</View>
 	);
 }
