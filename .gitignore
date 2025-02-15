@@ -1,0 +1,57 @@
+# Ignore the models directory
+models/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.virtualenv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data & checkpoints
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.h5
+checkpoints/
+logs/
+runs/
+tensorboard/
+datasets/
+data/
+
+# Compiled Cython files
+*.cpp
+*.so
+
+# Package management
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# PyCharm & VSCode project settings
+.idea/
+.vscode/
+
+# macOS & system files
+.DS_Store
+Thumbs.db
+
+# Environment & dependency files
+.env
+*.log
+requirements.txt
+
+# Ignore cache files
+.cache/
+__pycache__/
+*.ipynb_checkpoints
