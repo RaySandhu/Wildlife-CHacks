@@ -30,13 +30,15 @@ export default function LandingPage() {
 			{state1== 0 && 
 			<div>
 			<Text style={styles.title}>Welcome to EcoTourism!</Text>
-			<Text>This is the landing page.</Text>
+			
 			<Pressable onPress={()=>{setState1(1)}}>
 				  <Image 
 					  source={{ uri: 'https://media.istockphoto.com/id/1306235331/vector/simplified-world-map-vector-illustration.jpg?s=612x612&w=0&k=20&c=upPEHqLBNiakoRE4qBO0hfFiuINfNKg-3SZyhSraKP0=' }} // URL of the image
 					  style={{ width: 700,height:500 }}
 					/>
 			</Pressable>
+
+			<Pressable onPress={()=> {console.log("Hello world")}}></Pressable>
 
 			</div>}
 			{state1==1 &&  <Pressable onPress={()=>{setState1(0)}}><Image 
