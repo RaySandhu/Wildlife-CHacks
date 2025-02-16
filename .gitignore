@@ -17,7 +17,7 @@ env/
 
 # Data & checkpoints
 *.ckpt
-*.pth
+#*.pth
 *.pt
 *.onnx
 *.h5
