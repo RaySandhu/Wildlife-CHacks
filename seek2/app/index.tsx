@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Button, Image,TouchableOpacity, Pressable } from 'react-native';
 
+import { Ionicons } from '@expo/vector-icons';
+
 const callFlaskAPI = async () => {
 	try {
 		const response = await fetch('http://localhost:5000/');
@@ -38,7 +40,10 @@ export default function LandingPage() {
 					/>
 			</Pressable>
 
-			<Pressable onPress={()=> {console.log("Hello world")}}></Pressable>
+			<Pressable onPress={()=> {console.log("Hello world")}}>
+					<Ionicons name='camera' color={"black"} size={50} style={{margin:"auto", marginTop:25}} />
+		
+			</Pressable>
 
 			</div>}
 			{state1==1 &&  <Pressable onPress={()=>{setState1(0)}}><Image 
