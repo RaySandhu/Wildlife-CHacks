@@ -5,8 +5,8 @@
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint"
@@ -15,6 +15,9 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@aws-sdk/client-cognito-identity": "^3.749.0",
+    "@aws-sdk/client-s3": "^3.722.0",
+    "@aws-sdk/credential-provider-cognito-identity": "^3.749.0",
     "@expo/vector-icons": "^14.0.2",
     "@react-navigation/bottom-tabs": "^7.2.0",
     "@react-navigation/native": "^7.0.14",
